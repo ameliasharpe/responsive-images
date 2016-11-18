@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img,picture {
+    max-width: 90%;
+}
+
+ul {
+    list-style: none;
+}
+
+@media all and (max-width: 1200px) and (min-width: 600px) {
+    ul {
+        -webkit-column-count: 2; 
+        -moz-column-count: 2; 
+        column-count: 2
+    }
+}
+
+@media all and (min-width: 1200px) {
+    ul {
+        -webkit-column-count: 4;
+        -moz-column-count: 4; 
+        column-count: 4;
+    }
+}
